@@ -7,7 +7,7 @@ data class InternalCookie(
     val comment: String?,
     val commentURL: String?,
     val discard: Boolean?,
-    val domain: String,
+    val domain: String?,
     val maxAge: Long?,
     val name: String,
     val path: String?,
